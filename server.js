@@ -13,7 +13,7 @@ app.use('/image', express.static('public'))
 
 
 const PORT = process.env.PORT || 5000;
-const BASE_IMAGE_URL = `http://localhost:${PORT}/image`;
+const BASE_IMAGE_URL = "https://darksole-server.onrender.com/image";
 
 const products = [
     {
